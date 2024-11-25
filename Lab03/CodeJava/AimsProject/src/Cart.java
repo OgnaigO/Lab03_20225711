@@ -4,7 +4,7 @@ public class Cart {
     private DigitalVideoDisc itemOrdered[] = new DigitalVideoDisc[MAX_NUMBER_ORDER];
 
     private int qtyOrdered = 0;
-    /* Code cu
+    /* Code Lab02
     public void addDigitalVideoDisc(DigitalVideoDisc disc) {
         if (qtyOrdered < MAX_NUMBER_ORDER) {
             itemOrdered[qtyOrdered] = disc;
