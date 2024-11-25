@@ -1,1 +1,11 @@
-2.1 Em thích việc sử dụng Varargs hơn bở vì nó không phải tạo một mảng thủ công mà chỉ cần truyền danh sách DVD trực tiếp khi gọi phương thức.	
+2.1) Em thích việc sử dụng Varargs hơn bở vì nó không phải tạo một mảng thủ công mà chỉ cần truyền danh sách DVD trực tiếp khi gọi phương thức.
+3) Trong Java, các tham số được truyền bằng giá trị (pass-by-value).
+Trong trường hợp này:
+o1 và o2 nhận bản sao của tham chiếu (jungleDVD và cinderellaDVD).
+Bên trong phương thức swap, chỉ có các bản sao tham chiếu được hoán đổi, chứ không phải các tham chiếu thực tế bên ngoài.
+Kết quả: Không có sự thay đổi nào đối với hai đối tượng jungleDVD và cinderellaDVD sau khi gọi swap.
+Trong phương thức changeTitle(DigitalVideoDisc dvd, String title):
+dvd.setTitle(title) thay đổi nội dung của đối tượng dvd được tham chiếu, nên tiêu đề của jungleDVD sẽ được cập nhật thành "Cinderella".
+dvd = new DigitalVideoDisc(oldTitle) tạo một đối tượng DigitalVideoDisc mới và gán cho biến cục bộ dvd.
+Kết quả:
+jungleDVD bên ngoài phương thức vẫn trỏ đến đối tượng đã bị thay đổi nội dung thành "Cinderella".
