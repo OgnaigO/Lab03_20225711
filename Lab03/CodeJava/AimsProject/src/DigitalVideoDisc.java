@@ -38,4 +38,8 @@ public class DigitalVideoDisc {
 	public float getCost() {
 		return cost;
 	}
+	public void setTitle(String title2) {
+		// TODO Auto-generated method stub
+		
+	}
 }
