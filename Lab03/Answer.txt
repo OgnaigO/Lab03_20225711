@@ -1,1 +1,1 @@
-Có, Java cho phép tạo nhiều constructor cho cùng một lớp, một tính năng gọi là nạp chồng constructor. Với lớp DigitalVideoDisc, ta có thể có một constructor chỉ nhận title làm tham số và một constructor khác nhận cả category và title làm tham số.
+2.1 Em thích việc sử dụng Varargs hơn bở vì nó không phải tạo một mảng thủ công mà chỉ cần truyền danh sách DVD trực tiếp khi gọi phương thức.	
