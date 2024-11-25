@@ -72,4 +72,9 @@ public class DigitalVideoDisc {
     public void setTitle(String title) {
         this.title = title;
     }
+
+	public boolean isMatch(String title2) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }
