@@ -1,3 +1,4 @@
+package hust.soict.dsai.test.disc;
 public class DigitalVideoDisc {
     private static int nbDigitalVideoDiscs = 0;
 
