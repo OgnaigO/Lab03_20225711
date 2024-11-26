@@ -15,6 +15,13 @@ public class CartTest {
 
         // Test the print method
         cart.print();
+        // Tìm kiếm DVD theo ID
+        cart.searchById(1); // Tìm DVD có ID = 1
+        cart.searchById(5); // Tìm DVD không tồn tại
+
+        // Tìm kiếm DVD theo tiêu đề
+        cart.searchByTitle("Star Wars"); // Tìm DVD có tiêu đề "Movie 2"
+        cart.searchByTitle("Nonexistent Movie"); // Tìm DVD không tồn tại
 
         // To-do: Test the search methods here
     }
