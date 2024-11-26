@@ -1,3 +1,7 @@
+package hust.soict.dsai.aims.store;
+
+import hust.soict.dsai.test.disc.DigitalVideoDisc;
+
 public class Store {
     // Số lượng tối đa DVD có thể lưu trữ trong cửa hàng
     public static final int MAX_ITEMS_IN_STORE = 100;
